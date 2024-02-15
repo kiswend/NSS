@@ -6,7 +6,7 @@
 ```mermaid
 flowchart LR
 
-step0 -->step1-->|1|step2-->|6|step2b-->|1|step3-->step4-->step5-->step6-->step7
+
 
 step0[
     *161#
@@ -59,6 +59,8 @@ step6[
 
 step7[Your request has been submitted. 
 You will receive a confirmation SMS]
+
+step0 -->step1-->|1|step2-->|6|step2b-->|1|step3-->step4-->step5-->step6-->step7
 
 ```
 
