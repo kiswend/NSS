@@ -1,5 +1,69 @@
 
 
+# USSD menu
+
+
+```mermaid
+flowchart LR
+
+step0 -->step1-->|1|step2-->|6|step2b-->|1|step3-->step4-->step5-->step6-->step7
+
+step0[
+    *161#
+]
+
+ step1[AfriMoney:
+1.Send Money
+2.Pay Bill
+3.Top-up/Data
+4.Pay Merchant
+5.Africredit
+6.Cashout
+1.Pending Trans.
+2.My Account
+9.Bank
+10.Vouchers
+]
+
+step2[
+1.Send to Afrimoney Registered
+2.Send to Afrimoney Unregistered
+3.Donation
+4.Send to Orange
+5.Send to QCell
+6.Salone switch
+0 Prev
+]
+
+step2b[
+1.Send money
+2.Register
+0 Prev
+]
+
+step3[Enter receive alias]
+
+step4[Select destination account
+1.SLCB
+2.Orange
+3.RCB
+]
+
+step5[Enter amount to send]
+
+step6[
+    fees: NLe 0
+    tax: NLe 0
+    Enter your PIN to confirm
+]
+
+step7[Your request has been submitted. 
+You will receive a confirmation SMS]
+
+```
+
+
+# flow
 ```mermaid
 sequenceDiagram
     autonumber
