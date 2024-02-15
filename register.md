@@ -95,7 +95,7 @@ sequenceDiagram
 ```
 
 
-# requests
+# APIs
 
 ## Get customer by phone number
 
@@ -158,6 +158,12 @@ response[0].customer.id, (75 in this example) is the id of the customer
 ### Response fail
 
 ```json
+{
+    "errorCode": null, 
+    "errorDescription": null, 
+    "description": null, 
+    "response": []
+}
 ```
 
 
