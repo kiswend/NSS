@@ -7,19 +7,13 @@ The customer won't enter any information manually. All informations required in 
 
 ```mermaid
 flowchart LR
-    A-->|A|B
-```
-
-
-
-```mermaid
-flowchart LR
 
 step0[
     *161#
 ]
 
- step1[AfriMoney:
+ step1[
+AfriMoney:
 1.Send Money
 2.Pay Bill
 3.Top-up/Data
@@ -50,8 +44,10 @@ step2b[
 
 step3[Enter PIN to confirm]
 
-step4[You request has been submtted. 
-You will receive a confirmation SMS]
+step4[
+You request has been submtted. 
+You will receive a confirmation SMS
+]
 
 step0-->step1-->|1|step2-->|6|step2b-->|2|step3-->step4
 ```
