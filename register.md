@@ -7,7 +7,7 @@ The customer won't enter any information manually. All informations required in 
 
 ```mermaid
 flowchart LR
-    A-- text -->B
+    A-->|A|B
 ```
 
 
