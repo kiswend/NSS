@@ -4,7 +4,7 @@
 
 
 ```mermaid
-flowchart LR
+graph LR
 
 
 

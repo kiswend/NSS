@@ -6,7 +6,7 @@ The customer won't enter any information manually. All informations required in 
 # USSD menu
 
 ```mermaid
-flowchart LR
+graph LR
 
 
 
