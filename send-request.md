@@ -44,7 +44,7 @@ step2b["
 
 step3[Enter receive alias]
 
-step4["Select destination account
+step4["You are about to transfer to {receiver name}. Select destination account
 1.SLCB
 2.Orange
 3.RCB
