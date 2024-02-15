@@ -8,11 +8,9 @@ The customer won't enter any information manually. All informations required in 
 ```mermaid
 flowchart LR
 
-step0[
-    *161#
-]
+step0[*161#]
 
- step1[
+ step1["
 AfriMoney:
 1.Send Money
 2.Pay Bill
@@ -24,9 +22,9 @@ AfriMoney:
 2.My Account
 9.Bank
 10.Vouchers
-]
+"]
 
-step2[
+step2["
 1.Send to Afrimoney Registered
 2.Send to Afrimoney Unregistered
 3.Donation
@@ -34,20 +32,20 @@ step2[
 5.Send to QCell
 6.Salone switch
 0 Prev
-]
+"]
 
-step2b[
+step2b["
 1.Send money
 2.Register
 0 Prev
-]
+"]
 
 step3[Enter PIN to confirm]
 
-step4[
+step4["
 You request has been submtted. 
 You will receive a confirmation SMS
-]
+"]
 
 step0-->step1-->|1|step2-->|6|step2b-->|2|step3-->step4
 ```
