@@ -8,7 +8,7 @@ sequenceDiagram
     participant nss
 
     nss ->> eig: pac.002
-    eig ->> txn: resume txn
+    eig ->> txn: BIB2W
     txn ->> txn: complete transaction
     txn -->> eig: ack
     eig -->> nss: ack

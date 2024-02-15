@@ -34,12 +34,12 @@ sequenceDiagram
         nss -->> eig: customer details
     end
     eig ->> nss: create alias
-    nss ->> eig: reponse
+    nss -->> eig: response
     eig ->> nss: link alias
-    nss -->> eig: reponse
+    nss -->> eig: response
     eig ->> txnserver: bank link
     activate txnserver
-    txnserver -->> eig: reponse
+    txnserver -->> eig: response
     deactivate txnserver
     deactivate eig
     txnserver ->> customer: sms notification
@@ -251,3 +251,5 @@ curl -X POST 'http://172.16.10.181:23473/api/fp/accounts/linked/alias' \
 ```json
 ```
 
+
+[Main](README.MD)
