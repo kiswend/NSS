@@ -9,11 +9,11 @@ sequenceDiagram
     participant eig
     participant nss
 
-    nss ->> eig: pac.002
+    nss ->> eig: pac.008.001.10
     eig ->> txn: resume txn
     txn ->> txn: complete transaction
     txn -->> eig: ack
-    eig -->> nss: ack
+    eig -->> nss: pac.002.001.12
     txn ->> customer: sms notification
 ```
 

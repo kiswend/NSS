@@ -101,7 +101,7 @@ sequenceDiagram
 
 ### Request
 ```bash
-curl -X POST 'http://172.16.10.181:23473/api/fp/customer/accounts' \
+curl -X POST 'http://172.16.10.177:23473/api/fp/customer/accounts' \
 --header 'Content-Type: application/json' \
 --data '{
   "mobileNumber": "65889902"
@@ -172,7 +172,7 @@ response[0].customer.id, (75 in this example) is the id of the customer
 ### request
 
 ```bash
-curl -X POST 'http://172.16.10.181:23471/api/fp/customer' \
+curl -X POST 'http://172.16.10.177:23471/api/fp/customer' \
 --header 'Content-Type: application/json' \
 --data '{
 "name": "Joe",
@@ -223,7 +223,7 @@ curl -X POST 'http://172.16.10.181:23471/api/fp/customer' \
 76 in the url is the customer ID retrieved from previous APIs
 
 ```bash
-curl -X POST 'http://172.16.10.181:23473/api/fp/customer/76/aliases/' \
+curl -X POST 'http://172.16.10.177:23473/api/fp/customer/76/aliases/' \
 --header 'Content-Type: application/json' \
 --data '[
     {
@@ -264,7 +264,7 @@ curl -X POST 'http://172.16.10.181:23473/api/fp/customer/76/aliases/' \
 ### request
 
 ```bash
-curl -X POST 'http://172.16.10.181:23473/api/fp/accounts/linked/alias' \
+curl -X POST 'http://172.16.10.177:23473/api/fp/accounts/linked/alias' \
 --header 'Content-Type: application/json' \
 --header 'Cookie: csrftoken=qSBp5B4Cq8sePao7RNLN900SDkGzXNCy' \
 --data '[{

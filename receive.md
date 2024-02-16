@@ -7,7 +7,7 @@ sequenceDiagram
     participant eig
     participant nss
 
-    nss ->> eig: pac.002
+    nss ->> eig: pac.008
     eig ->> eig: validate PKI
     eig ->> txn: BIB2W
     txn ->> txn: complete transaction
